@@ -7,3 +7,11 @@ ajouter un employé, mettre à jour les salaires ....
 ## Language utilisé ##
 > C# (Visual Studio) & SQL (MySql)
 
+## Structure du programme ##
+> 3 classes :
+
+|Nom des classes|Contenu                                     |
+|:-------------:|:------------------------------------------:|
+|Main           |Menu listant les actions que l'on peut faire|
+|Requêtes       |Les procédures stockées                     |
+|Connexion      |Permet la connexion au serveur              |
