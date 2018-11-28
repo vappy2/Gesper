@@ -27,6 +27,7 @@ namespace Procédure_Stockées
         {
             this.cnx.Open();
             string result = "Ajouté avec succès";
+            cmd.Connection = Cnx;
             MySqlCommand cmd = new MySqlCommand();
             cmd.CommandText = "créer";
             cmd.CommandType = System.Data.CommandType.StoredProcedure;
@@ -187,7 +188,7 @@ namespace Procédure_Stockées
           result += ("{0}, {1}, {2}, {3}, {4}, {5}\n", Rdr[0],Rdr[1], Rdr[2], Rdr[3], Rdr[4], Rdr[5]);
         }
         cnx.Close();
-        return result;
+        return result;List
       }
 
       public string MajSalaire(string nom, decimal pourcentage)
