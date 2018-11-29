@@ -85,7 +85,7 @@ namespace Procédure_Stockées
                         case 8:
                             Console.WriteLine("Mise à jour du salaire d'un employé...");
                             break;
-                        case 9?:
+                        case 9 :
                             Console.WriteLine("Masse salariale d'un service");
                             break;
                         case 10:
@@ -98,10 +98,9 @@ namespace Procédure_Stockées
                     }
 
                 }
-                while (choix < 0 || choix > 6);
+                while (choix < 0 || choix > 11);
 
-            } while (choix != 6);
-
+            } while (choix != 12);
         }
     }
 }
