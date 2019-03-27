@@ -10,7 +10,7 @@ Cette application permet à un utilisateur d'acceder à la base de donner de la 
 Pour mieux comprendre, le cas d'utilisation est diponible ci-dessous.
 
 #### Cas d'utilisation ####
-*insérer le cas d'utilisation*
+![CU](https://github.com/vappy2/Gesper/blob/master/img/CUGesper.PNG)
 
 #### Language ####
 * C#
