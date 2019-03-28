@@ -74,22 +74,27 @@ namespace Procédure_Stockées
                             break;
                         case 5:
                             Console.WriteLine("Liste des employés qui ont plus de diplome que la moyenne des diplômes par employés");
-                            Console.WriteLine(rq.diplome())
+                            Console.WriteLine(rq.diplome());
                             break;
                         case 6:
                             Console.WriteLine("Liste complète des employés");
+                            Console.WriteLine(rq.ListeEmployes());
                             break;
                         case 7:
                             Console.WriteLine("Liste complète des services");
+                            Console.WriteLine(rq.ListeService());
                              break;
                         case 8:
                             Console.WriteLine("Mise à jour du salaire d'un employé...");
+                            Console.WriteLine(rq.MajSalaire());
                             break;
                         case 9 :
                             Console.WriteLine("Masse salariale d'un service");
+                            Console.WriteLine(rq.msalariale());
                             break;
                         case 10:
                              Console.WriteLine("Liste des employés cadres gagnant plus que la moyenne des cadre");
+                             Console.WriteLine(rq.salairecadre());
                              break;
                          case 11:
                             Console.WriteLine("\nFin du Traitement");
