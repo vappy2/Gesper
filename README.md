@@ -26,4 +26,4 @@ L'application ne comporte que 2 classes :
 |Requêtes|Classe où toutes les requêtes SQL nécéssaire sont réalisées|
 |Connexion | Classe permettant d'effectuer la connexion à la base de données|
 
-![DDC](https://github.com/vappy2/Gesper/blob/master/img/DDCGesper.PNG)
+![DDC](https://github.com/vappy2/Gesper/blob/master/img/DDCGesper.png)
