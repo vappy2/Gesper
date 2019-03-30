@@ -4,7 +4,7 @@
 Cette application permet à un utilisateur d'acceder à la base de donner de la société Gesper pour :
 * Ajouter un nouvel employé
 * Gérer le budget
-* Avoir accès aux informations des employés 
+* Avoir accès aux informations des employés
 * toutes les fonctionnalités sont disponible dans le source [Progam.cs](https://github.com/vappy2/Gesper/blob/master/Program.cs)
 
 Pour mieux comprendre, le cas d'utilisation est diponible ci-dessous.
@@ -16,7 +16,7 @@ Pour mieux comprendre, le cas d'utilisation est diponible ci-dessous.
 * C#
 * SQL
 
-* * * 
+* * *
 ## Structure du projet ##
 L'application ne comporte que 2 classes :
 
@@ -24,5 +24,6 @@ L'application ne comporte que 2 classes :
 |---|-------|
 |Program|Il s'agit du menu/panneau de commande
 |Requêtes|Classe où toutes les requêtes SQL nécéssaire sont réalisées|
+|Connexion | Classe permettant d'effectuer la connexion à la base de données|
 
-*insérer le diagramme de classe*
+![DDC](https://github.com/vappy2/Gesper/blob/master/img/DDCGesper.PNG)

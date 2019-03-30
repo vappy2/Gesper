@@ -18,7 +18,7 @@ namespace Procédure_Stockées
             Console.WriteLine("User"); u = Console.ReadLine();
             Console.WriteLine("Base de données"); db = Console.ReadLine();
             Console.WriteLine("Mot de Passe"); p = Console.ReadLine();*/
-            //données brut par flemme
+            //données brutes
             h=localhost;
             u=root;
             bd=gesper;

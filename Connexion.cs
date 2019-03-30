@@ -17,6 +17,12 @@ namespace Procédure_Stockées
             cnx = new MySqlConnection(scnx);     }
 
 
-        public MySqlConnection GetCnx { get { return Connexion.cnx; } }
+        public MySqlConnection GetCnx
+        {
+          get
+          {
+            return Connexion.cnx;
+            }
+           }
     }
 }
