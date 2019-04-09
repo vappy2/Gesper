@@ -1,13 +1,11 @@
 # Application de logistique Gesper #
 
 ## But du projet ##
-Cette application permet à un utilisateur d'acceder à la base de donner de la société Gesper pour :
+Cette application permet à un utilisateur d'accéder à la base de données de la société Gesper pour :
 * Ajouter un nouvel employé
 * Gérer le budget
 * Avoir accès aux informations des employés
-* toutes les fonctionnalités sont disponible dans le source [Progam.cs](https://github.com/vappy2/Gesper/blob/master/Program.cs)
-
-Pour mieux comprendre, le cas d'utilisation est diponible ci-dessous.
+* Toutes les fonctionnalités sont disponible dans le source [Progam.cs](https://github.com/vappy2/Gesper/blob/master/Program.cs)
 
 #### Cas d'utilisation ####
 ![CU](https://github.com/vappy2/Gesper/blob/master/img/CUGesper.PNG)
